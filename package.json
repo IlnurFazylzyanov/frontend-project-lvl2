@@ -8,7 +8,7 @@
     "gendiff": "bin/gendiff.js"
   },
   "scripts": {
-    "test": "npx jest ."
+    "test": "npx jest --watch"
   },
   "repository": {
     "type": "git",
@@ -28,7 +28,6 @@
     "eslint": "^8.19.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.26.0",
-    "jest": "^28.1.2",
-    "jest-globals": "^0.1.7"
+    "jest": "^28.1.2"
   }
 }
