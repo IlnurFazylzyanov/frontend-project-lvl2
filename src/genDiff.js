@@ -1,11 +1,11 @@
 import { readFileSync } from 'fs';
 import _ from 'lodash';
 import path from 'path';
-import parsersFile from './parsers.js'
+import parsersFile from './parsers.js';
 
 const pathFile = (filepath) => path.resolve(process.cwd(), filepath);
 const extName = (filepath) => path.extname(filepath);
-const comprasionFile = (filepath) => parsersFile(readFileSync(pathFile(filepath), 'utf-8'), extName(filepath))
+const comprasionFile = (filepath) => parsersFile(readFileSync(pathFile(filepath), 'utf-8'), extName(filepath));
 
 export default (filepath1, filepath2) => {
   const file1 = comprasionFile(filepath1);

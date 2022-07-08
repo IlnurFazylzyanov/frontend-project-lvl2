@@ -16,8 +16,8 @@ test('generate diffs between two JSON files', () => {
 });
 
 test('generate diffs between two YAML files', () => {
-    const file1 = getFixturePath('file1.yml');
-    const file2 = getFixturePath('file2.yml');
-    const expected = readFileSync(getFixturePath('expectedFile_yml.txt'), 'utf-8');
-    expect(genDiff(file1, file2)).toBe(expected);
-  });
+  const file1 = getFixturePath('file1.yml');
+  const file2 = getFixturePath('file2.yml');
+  const expected = readFileSync(getFixturePath('expectedFile_yml.txt'), 'utf-8');
+  expect(genDiff(file1, file2)).toBe(expected);
+});
