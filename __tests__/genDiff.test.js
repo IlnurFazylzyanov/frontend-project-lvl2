@@ -1,8 +1,8 @@
-import genDiff from '../src/genDiff.js'
+import { path, dirname } from 'path';
 import { readFileSync } from 'fs';
 import { fileURLToPath } from 'url';
-import { dirname } from 'path';
-import path from 'path';
+import { test, expect } from '@jest/globals';
+import genDiff from '../src/genDiff.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -13,4 +13,4 @@ test('generate diffs between two JSON files', () => {
   const file2 = getFixturePath('file2.json');
   const expected = readFileSync(getFixturePath('resultFile.txt'), 'utf-8');
   expect(genDiff(file1, file2)).toBe(expected);
-})
+});
