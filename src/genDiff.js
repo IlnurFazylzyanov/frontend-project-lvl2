@@ -1,12 +1,15 @@
 import { readFileSync } from 'fs';
 import _ from 'lodash';
 import path from 'path';
+import parsersFile from './parsers.js'
+
+const pathFile = (filepath) => path.resolve(process.cwd(), filepath);
+const extName = (filepath) => path.extname(filepath);
+const comprasionFile = (filepath) => parsersFile(readFileSync(pathFile(filepath), 'utf-8'), extName(filepath))
 
 export default (filepath1, filepath2) => {
-  const path1 = path.resolve(process.cwd(), filepath1);
-  const path2 = path.resolve(process.cwd(), filepath2);
-  const file1 = JSON.parse(readFileSync(path1, 'utf-8'));
-  const file2 = JSON.parse(readFileSync(path2, 'utf-8'));
+  const file1 = comprasionFile(filepath1);
+  const file2 = comprasionFile(filepath2);
   const keys1 = _.keys(file1);
   const keys2 = _.keys(file2);
   const keys = _.union(keys1, keys2);
