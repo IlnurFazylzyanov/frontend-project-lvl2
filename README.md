@@ -4,6 +4,6 @@
 [![Test Coverage](https://api.codeclimate.com/v1/badges/2e8b004f6fe9a3680021/test_coverage)](https://codeclimate.com/github/IlnurFazylzyanov/frontend-project-lvl2/test_coverage)
 [![Eslint Status](https://github.com/IlnurFazylzyanov/frontend-project-lvl1/actions/workflows/eslint.yml/badge.svg)](https://github.com/IlnurFazylzyanov/frontend-project-lvl2/actions/workflows/eslint.yml)
 ### Asciinema flat file comparison (JSON)
-[![asciicast](https://asciinema.org/a/l5eUDK6GfrxddpoS6FEU4H7hI.svg)](https://asciinema.org/a/l5eUDK6GfrxddpoS6FEU4H7hI)
+[![asciicast](https://asciinema.org/a/rpD0S5foplKU2QZbLDf2nVHT3.svg)](https://asciinema.org/a/rpD0S5foplKU2QZbLDf2nVHT3)
 ### Asciinema flat file comparison (YML)
-[![asciicast](https://asciinema.org/a/ozpJLFjEZFi8qFNT9gWBr0OMU.svg)](https://asciinema.org/a/ozpJLFjEZFi8qFNT9gWBr0OMU)
+[![asciicast](https://asciinema.org/a/O6a9njhMQzhw3pybIEV4TTS6K.svg)](https://asciinema.org/a/O6a9njhMQzhw3pybIEV4TTS6K)
