@@ -15,3 +15,5 @@ test('expectedTree', () => {
   const expected = readFileSync(getFixturePath('expectedTree.txt'), 'utf-8');
   expect(stylish(genDiff(file1, file2))).toEqual(expected);
 });
+
+
