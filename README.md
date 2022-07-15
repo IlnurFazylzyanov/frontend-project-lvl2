@@ -7,3 +7,5 @@
 [![asciicast](https://asciinema.org/a/rpD0S5foplKU2QZbLDf2nVHT3.svg)](https://asciinema.org/a/rpD0S5foplKU2QZbLDf2nVHT3)
 ### Asciinema flat file comparison (YML)
 [![asciicast](https://asciinema.org/a/O6a9njhMQzhw3pybIEV4TTS6K.svg)](https://asciinema.org/a/O6a9njhMQzhw3pybIEV4TTS6K)
+### Asciinema of nested diff
+[![asciicast](https://asciinema.org/a/K6SGqppH2OzD8U5cSjCzdLrt3.svg)](https://asciinema.org/a/K6SGqppH2OzD8U5cSjCzdLrt3)
