@@ -9,3 +9,5 @@
 [![asciicast](https://asciinema.org/a/O6a9njhMQzhw3pybIEV4TTS6K.svg)](https://asciinema.org/a/O6a9njhMQzhw3pybIEV4TTS6K)
 ### Asciinema of nested diff
 [![asciicast](https://asciinema.org/a/K6SGqppH2OzD8U5cSjCzdLrt3.svg)](https://asciinema.org/a/K6SGqppH2OzD8U5cSjCzdLrt3)
+### Asciinema of nested diff with plain format
+[![asciicast](https://asciinema.org/a/3faUY7oyyEbHhdCSnGSVL3NZ7.svg)](https://asciinema.org/a/3faUY7oyyEbHhdCSnGSVL3NZ7)
