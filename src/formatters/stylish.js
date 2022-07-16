@@ -17,7 +17,7 @@ const stylish = (diff, replacer = ' ', spacesCount = 2) => {
         case 'unchanged':
           return `${keyIndent}  ${key}: ${iter(node.value, depth + 1)}`;
         case 'changed':
-          return `${keyIndent}- ${key}: ${iter(node.previusValue, depth + 2)}\n${keyIndent}+ ${key}: ${node.currentValue}`;
+          return `${keyIndent}- ${key}: ${iter(node.previusValue, depth + 2)}\n${keyIndent}+ ${key}: ${iter(node.currentValue, depth + 2)}`;
         case 'nested':
           return `${keyIndent}  ${key}: ${iter(node.children, depth + 2)}`;
         default:
