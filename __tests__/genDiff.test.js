@@ -30,14 +30,14 @@ test('expected stylish YAML', () => {
   expect(stylish(genDiff(file1, file2))).toEqual(expected);
 });
 
-test('expected plain ', () => {
+test('expected plain', () => {
   const file1 = getFixturePath('file1.yaml');
   const file2 = getFixturePath('file2.yaml');
   const expected = readFileSync(getFixturePath('expectedPlainFile.txt'), 'utf-8');
   expect((genDiff(file1, file2, 'plain'))).toEqual(expected);
 });
 
-test('expected JSON.stringify ', () => {
+test('expected JSON.stringify', () => {
   const file1 = getFixturePath('file1.json');
   const file2 = getFixturePath('file2.json');
   const expected = readFileSync(getFixturePath('expectedJsonFile.txt'), 'utf-8');
