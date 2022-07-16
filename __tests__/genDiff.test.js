@@ -36,3 +36,10 @@ test('expected plain ', () => {
   const expected = readFileSync(getFixturePath('expectedPlainFile.txt'), 'utf-8');
   expect((genDiff(file1, file2, 'plain'))).toEqual(expected);
 });
+
+test('expected JSON.stringify ', () => {
+  const file1 = getFixturePath('file1.json');
+  const file2 = getFixturePath('file2.json');
+  const expected = readFileSync(getFixturePath('expectedJsonFile.txt'), 'utf-8');
+  expect((genDiff(file1, file2, 'json'))).toEqual(expected);
+});
