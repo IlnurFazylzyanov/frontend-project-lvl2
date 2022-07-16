@@ -1,11 +1,14 @@
 import yaml from 'js-yaml';
 
 export default (data, typeFile) => {
-  let parse;
-  if (typeFile === '.yaml' || typeFile === '.yml') {
-    parse = yaml.load;
-  } else if (typeFile === '.json') {
-    parse = JSON.parse;
+  switch (typeFile) {
+    case '.yml':
+      return yaml.load(data);
+    case '.yaml':
+      return yaml.load(data);
+    case '.json':
+      return JSON.parse(data);
+    default:
+      return 'no typeFile';
   }
-  return parse(data);
 };
