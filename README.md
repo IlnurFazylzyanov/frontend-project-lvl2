@@ -17,7 +17,8 @@ gendiff - программа, которая генерирует разницу
 * Клонировать данный репозиторий
 * Ввести команду make install
 * Для справки/помощи использовать gendiff -h
-#Video game realization
+ 
+# Video game realization
 ### Asciinema flat file comparison (JSON)
 [![asciicast](https://asciinema.org/a/rpD0S5foplKU2QZbLDf2nVHT3.svg)](https://asciinema.org/a/rpD0S5foplKU2QZbLDf2nVHT3)
 ### Asciinema flat file comparison (YML)
