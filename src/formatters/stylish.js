@@ -5,7 +5,6 @@ const stylish = (diff, replacer = ' ', spacesCount = 2) => {
     if (!_.isPlainObject(currentValue)) {
       return `${currentValue}`;
     }
-
     const indentSize = depth * spacesCount;
     const keyIndent = replacer.repeat(indentSize);
     const bracketIndent = replacer.repeat(indentSize - spacesCount);
