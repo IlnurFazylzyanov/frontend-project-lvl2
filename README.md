@@ -11,3 +11,5 @@
 [![asciicast](https://asciinema.org/a/K6SGqppH2OzD8U5cSjCzdLrt3.svg)](https://asciinema.org/a/K6SGqppH2OzD8U5cSjCzdLrt3)
 ### Asciinema of nested diff with plain format
 [![asciicast](https://asciinema.org/a/3faUY7oyyEbHhdCSnGSVL3NZ7.svg)](https://asciinema.org/a/3faUY7oyyEbHhdCSnGSVL3NZ7)
+### Asciinema of nested diff with json format
+[![asciicast](https://asciinema.org/a/YVqT7mdZWyhjfOsrhMNmPiMDb.svg)](https://asciinema.org/a/YVqT7mdZWyhjfOsrhMNmPiMDb)
